@@ -1,0 +1,76 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background: rgb(91, 152, 151);
+    font-size: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    color: white;
+}
+
+.ul {
+    color: black;
+    padding: 5px;
+    margin: 3px;
+} 
+
+.banner-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: none;
+    
+}
+
+.banner {
+    background-color: bisque;
+    background-image: url(https://th.bing.com/th/id/R.9daa251846041f311b91d930d6ffd628?rik=VVsNIq%2fGp5qGqQ&riu=http%3a%2f%2fcafmp.com%2fwp-content%2fuploads%2f2012%2f12%2fAvatar-Banner.jpg&ehk=kyRlfreulXK169%2b7F5MDqjmNznuaxsT%2bZlXBMeLCTT4%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    height: 280px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.banner form {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sectionContainer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#movieTileContaiber {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 18rem;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHouse Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">TMDB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Movies <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">TV Shows</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">People</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="#">More</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="button_conatainer">
+    <button type="button" class="btn btn-dark">+</button>
+    <button type="menu" class="btn btn-dark">EN</button>
+    <button type="button" class="btn btn-dark">Login</button>
+    <button type="button" class="btn btn-dark">Search</button>
+  </div>
+</nav>  
+    </header>
+    <div class="banner-container">
+      <div class="banner">
+      <h2>TMDB Movies Application</h2>
+      <p>Watch and discover all your favourite and latest movies here for free.</p>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search movies, shows ,etc" aria-label="Search">
+        <button class="btn btn-dark" type="submit">Search</button>
+      </form>
+
+      </div>
+
+      <div>
+        <h1>Click on the button for list of movies.</h1>
+      </div>
+      
+
+    <main>
+      <div class="section-container" id="sectionContainer">
+        <ul>
+          <li id="popularMovies" class="movies-section"><a href="#">Popular Movies</a>
+          </li>
+  
+          <li id="topRatedMovies" class="movies-section"><a href="#">Top-rated Movies</a>
+          </li>
+  
+          <li id="upcomingMovies" class="movies-section"><a href="#">Upcoming Movies</a>
+          </li>
+        </ul>
+        
+      </div>
+
+      <div id="movieTileContainer" class="container"></div>
+
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
